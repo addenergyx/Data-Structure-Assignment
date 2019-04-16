@@ -22,10 +22,10 @@ while(indexStart <= indexEnd)
     if(V(indexMiddle) == target)
         targetIndex  = indexMiddle;
         break;
-    elseif(V(indexMiddle) < target)
+    elseif(V(indexMiddle) < target) % second half
         indexStart = indexMiddle + 1;
     else
-        indexEnd = indexMiddle - 1;
+        indexEnd = indexMiddle - 1;  % first half
     end
     %disp(' ');
 end
