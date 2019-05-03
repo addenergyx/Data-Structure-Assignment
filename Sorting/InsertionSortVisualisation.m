@@ -34,4 +34,4 @@ colormap jet;
 ylabel('Element Number','FontSize',14);
 xlabel('Array State','FontSize',14);
 % Store High-resolution Image Suitable for use in Reports
-print -f1-r300-dbmpinsertionSortVisualisation.bmp
+print -f1 -r300 -dbmp insertionSortVisualisation.bmp

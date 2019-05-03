@@ -35,8 +35,8 @@ legend('best','average','worst');
 % Plot Expected
 
 plot([1:maxArraySize], linspace(1,1,maxArraySize),           'k:', 'LineWidth', 2); % best
-plot([1:maxArraySize], linspace(1,log2(N),maxArraySize),     'k:', 'LineWidth', 2); % average
-plot([1:maxArraySize], linspace(1,(log2(N))*2,maxArraySize), 'k:', 'LineWidth', 2); % worst
+plot([1:maxArraySize], floor(log2((1:maxArraySize)+1)-1), 'k:', 'LineWidth', 2); % average
+plot([1:maxArraySize], floor(log2(1:maxArraySize)+1),     'k:', 'LineWidth', 2); % worst
 
 % Annotate Chart
 

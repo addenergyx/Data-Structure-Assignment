@@ -1,7 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Title:     Binary Search Algorithm
-% Author:    Ian van der Linde
-% Rev. Date: 08-02-18
+% Title:     Ternary Search Algorithm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [numComparisons, targetIndex] = ternarySearch(V, target)

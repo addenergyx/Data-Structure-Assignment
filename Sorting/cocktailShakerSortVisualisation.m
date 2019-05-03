@@ -1,9 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Title:    Cocktail shaker Sort Algorithm Visualisation for Reversed Arrays
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% clear all;
-% close all;
-% clc;
+clear all;
+close all;
+clc;
 N = 16;     % Length of array to be sorted
 V = N:-1:1; % Generate an array containing integers from N down to 1
 
@@ -58,4 +58,4 @@ colormap jet;
 ylabel('Element Number','FontSize',14);
 xlabel('Array State','FontSize',14);
 % Store High-resolution Image Suitable for use in Reports
-print -f1-r300-dbmpinsertionSortVisualisation.bmp
+print -f1 -r300 -dbmp cocktailSortVisualisation.bmp
